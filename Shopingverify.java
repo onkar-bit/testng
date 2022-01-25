@@ -12,7 +12,7 @@ public class Shopingverify {
 	
 	public WebDriver driver;
 	
-	
+	//Project by using parameter
 	@Parameters("browser")
 	@BeforeTest
 	public void launch(String browser) {
