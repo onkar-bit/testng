@@ -39,6 +39,9 @@ public class Shopingverify {
 		driver.findElement(By.xpath("//button[@id='submitAccount']")).click();
 		String text= driver.findElement(By.xpath("//div[@class='alert alert-danger']")).getText();
 		System.out.println("the msg: "+text);
+		
+		//check error msg displayes or not
+		
 		if(text.contains(text)) {
 			System.out.println("error msg are displayed test PASS");
 		}
